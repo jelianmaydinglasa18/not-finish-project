@@ -1,0 +1,41 @@
+/* 
+-- Responsive Breakpoints
+sm: 640px - mobile phone size
+md: 768px - Tablet size
+lg: 1024px - Laptop standard size
+xl: 1280px -- larger wide desktop size
+*/
+
+/* Reusable CSS */
+@import "button.css";
+@import "card.css";
+
+/* Section CSS */
+@import "navbar.css";
+@import "hero-banner.css";
+@import "contact.css";
+@import "footer.css";
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+  border: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html, body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden; 
+
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
